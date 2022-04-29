@@ -1,6 +1,65 @@
+/*GENERAL*/
 body {
-    background-color: aquamarine;
+    background-color: #23252c;
+    font-family: 'Roboto', sans-serif;
+    color: #bcbcbd;
+    border: #bcbcbd 5px solid;
+    border-radius: 1%;
 }
-.info--container{
-    background-color: aquamarine;
+.card{
+    position: relative;
+    background-color: #1a1b21;
+    border-radius: 5%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+.component--container {
+    text-align: center;
+}
+/*INFO*/
+.photo {
+    width: 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.profesion {
+    color: #90664a;
+    font-size: 23px;
+}
+.name {
+    font-size: 27px;
+    margin-bottom: -10px;
+}
+.skills {
+    font-size: 18px;
+}
+.btn--linkedin{
+    background-color: #4f92e1;
+    color: #eeeef0;
+    font-size: 15px;
+    margin: 5px 15px;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+.btn--email {
+    font-size: 15px;
+    margin: 5px 15px;
+    padding: 5px 40px;
+    border-radius: 5px;    
+}
+/*ABOUT*/
+
+/*INTERESTS*/
+
+/*FOOTER*/
+.footer--icons {
+    text-align: center;
+    background-color: #161619;
+    padding: 10px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;    
 }

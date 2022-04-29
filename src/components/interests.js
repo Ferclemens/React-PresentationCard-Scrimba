@@ -3,7 +3,7 @@
 //Interests / Intereses
 export default function Interests() {
     return (
-        <div>
+        <div className="component--container">
             <div className="interests">
                 <h3>Interests</h3>
                 <p>Lorem Impsum</p>

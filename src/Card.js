@@ -7,7 +7,7 @@ import Footer from "./components/footer"
 
 export default function Card() {
     return (
-        <div>
+        <div className="card">
             <Info />
             <AboutMe />
             <Interests />
