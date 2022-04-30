@@ -1,29 +1,30 @@
-/*GENERAL*/
+/*-------------GENERAL-------------*/
 body {
     background-color: #23252c;
     font-family: 'Roboto', sans-serif;
     color: #bcbcbd;
     border: #bcbcbd 5px solid;
-    border-radius: 1%;
+    border-radius: 10px;
 }
 .card{
     position: relative;
     background-color: #1a1b21;
-    border-radius: 5%;
+    border-radius: 3%;
     margin-top: 60px;
     margin-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
     width: 400px;
 }
-.component--container {
+
+/*-------------INFO-------------*/
+.info--container {
     text-align: center;
 }
-/*INFO*/
 .photo {
     width: 100%;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
 }
 
 .profesion {
@@ -37,29 +38,95 @@ body {
 .skills {
     font-size: 18px;
 }
+/*----BUTTONS----*/
+.buttons {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
 .btn--linkedin{
-    background-color: #4f92e1;
+    display: flex;
+    align-items: center;
+    background-color: #0077b7;
     color: #eeeef0;
     font-size: 15px;
     margin: 5px 15px;
-    padding: 5px 30px;
+    padding: 8px 30px;
     border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
+.logo--linkedin {
+    width: 20px;
+    height: 20px;
+    margin: 0 3px 1px 0;
+}
+.linkedin {
+    font-size: 18px;
+    text-decoration: none;
+    color: #eeeef0;
+}
+
 .btn--email {
+    display: flex;
+    align-items: center;
+    background-color: #adadae;
     font-size: 15px;
     margin: 5px 15px;
-    padding: 5px 40px;
-    border-radius: 5px;    
+    padding: 8px 42px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;    
 }
-/*ABOUT*/
+.logo--mail{
+    width: 20px;
+    height: 20px;
+    margin: 0 4px 0 0;
+}
+.mail {
+    font-size: 18px;
+}
 
-/*INTERESTS*/
+/*-------------ABOUT-------------*/
+.about--me {
+    margin: 30px;
+}
+.about--tittle {
+    margin-bottom: -8px;
+}
 
-/*FOOTER*/
+/*-------------INTERESTS-------------*/
+.interests {
+    margin: 30px;
+}
+.interests--tittle {
+    margin-bottom: -8px;
+}
+/*-------------FOOTER-------------*/
 .footer--icons {
     text-align: center;
     background-color: #161619;
-    padding: 10px;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;    
+    padding: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;    
+}
+.logo--facebook {
+    width: 38px;
+    height: 38px;
+    margin: 0 30px 2px 0;
+
+}
+.logo--twiter {
+    width: 39px;
+    height: 39px;
+    margin: 0 30px 1px 0;
+}
+.logo--instagram {
+    width: 40px;
+    height: 40px;
+    margin: 0 30px 0 0;
+}
+.logo--github {
+    width: 40px;
+    height: 40px;
 }
