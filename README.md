@@ -1,3 +1,13 @@
+--------------------------------------------------
+
+# INSTRUCCIONES:
+    - Es necesario tener instalado NODE y NPM.
+    - Descargar y descomprimir el archivo .zip en caso de descargarlo directamente desde Github.
+    - Ingresar con CMD (Windows) en la carpeta "presentation-card" y ejecutar el comando "npm start" sin comillas.
+    - Listo!
+
+--------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
